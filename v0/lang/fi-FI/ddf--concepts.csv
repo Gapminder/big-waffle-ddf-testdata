@@ -1,5 +1,5 @@
 concept,concept_type,description,domain,name,scales
-age,string,Asukasryhmän ikä,,age,
+age,string,asukasryhmän ikä,,age,
 city,entity_set,,geo,,
 country,entity_set,,geo,,
 description,string,,,,
