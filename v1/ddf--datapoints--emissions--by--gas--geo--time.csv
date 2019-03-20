@@ -1,12 +1,12 @@
 gas,geo,time,emissions_as_an_extremely_long_indicator_name_of_60plus_chars
 co2,fin,1995,2345.6
 co2,fin,2000,2345.6
-c02,fin,2010,3456.7
-c02,fin,2018,3456.9
+co2,fin,2010,3456.7
+co2,fin,2018,3456.9
 co2,mwi,1995,23.45
 co2,mwi,2000,34.56
-c02,mwi,2010,45.67
-c02,mwi,2018,56.78
+co2,mwi,2010,45.67
+co2,mwi,2018,56.78
 methane,fin,1996,234
 methane,fin,2001,345
 methane,fin,2011,345
