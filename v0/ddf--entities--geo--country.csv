@@ -1,6 +1,6 @@
 country,name,is--country,iso3166_1_alpha2,latitude,longitude,un_state,world_4region,world_6region
 aia,Anguilla,TRUE,AI,18.21667,-63.05,FALSE,americas,america
-ala,Åland,TRUE,AX,60.25,20.0,FALSE,europe,europe_central_asia
+and,Åland,TRUE,AX,60.25,20.0,FALSE,europe,europe_central_asia
 cok,Cook Islands,TRUE,CK,-21.24842,-159.78516,FALSE,asia,east_asia_pacific
 fin,Finland,TRUE,FI,64.0,26.0,TRUE,europe,europe_central_asia
 hkg,Hongkong,TRUE,HK,22.28552,114.15769,FALSE,asia,east_asia_pacific
