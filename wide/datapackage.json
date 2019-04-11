@@ -1,0 +1,829 @@
+{
+  "name": "ddf--testdata",
+  "language": {
+    "id": "en"
+  },
+  "created": "2019-03-04T11:00:00Z",
+  "translations": [],
+  "version": "0.1.0",
+  "resources": [
+    {
+      "path": "ddf--concepts.csv",
+      "name": "ddf--concepts",
+      "schema": {
+        "fields": [
+          {
+            "name": "concept"
+          },
+          {
+            "name": "concept_type"
+          },
+          {
+            "name": "description"
+          },
+          {
+            "name": "domain"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "scales"
+          }
+        ],
+        "primaryKey": "concept"
+      }
+    },
+    {
+      "path": "ddf--entities--geo--country.csv",
+      "name": "ddf--entities--geo--country",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "is--country"
+          },
+          {
+            "name": "iso3166_1_alpha2"
+          },
+          {
+            "name": "latitude"
+          },
+          {
+            "name": "longitude"
+          },
+          {
+            "name": "name"
+          }
+        ],
+        "primaryKey": "country"
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_00--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_00--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_00"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_01--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_01--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_01"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_02--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_02--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_02"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_03--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_03--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_03"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_04--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_04--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_04"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_05--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_05--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_05"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_06--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_06--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_06"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_07--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_07--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_07"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_08--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_08--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_08"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_09--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_09--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_09"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_10--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_10--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_10"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_11--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_11--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_11"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_12--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_12--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_12"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_13--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_13--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_13"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_14--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_14--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_14"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_15--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_15--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_15"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_16--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_16--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_16"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_17--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_17--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_17"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_18--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_18--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_18"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--indicator_19--by--geo--time.csv",
+      "name": "ddf--datapoints--indicator_19--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "indicator_19"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    }
+  ],
+  "ddfSchema": {
+    "concepts": [
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "concept_type",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "description",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "domain",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "scales",
+        "resources": [
+          "ddf--concepts"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "name",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "is--country",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "iso3166_1_alpha2",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "latitude",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "longitude",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "is--country",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "iso3166_1_alpha2",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "latitude",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "longitude",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "name",
+        "resources": [
+          "ddf--entities--geo--country"
+        ]
+      }
+    ],
+    "datapoints": [
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_00",
+        "resources": [
+          "ddf--datapoints--indicator_00--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_01",
+        "resources": [
+          "ddf--datapoints--indicator_01--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_02",
+        "resources": [
+          "ddf--datapoints--indicator_02--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_03",
+        "resources": [
+          "ddf--datapoints--indicator_03--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_04",
+        "resources": [
+          "ddf--datapoints--indicator_04--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_05",
+        "resources": [
+          "ddf--datapoints--indicator_05--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_06",
+        "resources": [
+          "ddf--datapoints--indicator_06--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_07",
+        "resources": [
+          "ddf--datapoints--indicator_07--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_08",
+        "resources": [
+          "ddf--datapoints--indicator_08--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_09",
+        "resources": [
+          "ddf--datapoints--indicator_09--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_10",
+        "resources": [
+          "ddf--datapoints--indicator_10--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_11",
+        "resources": [
+          "ddf--datapoints--indicator_11--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_12",
+        "resources": [
+          "ddf--datapoints--indicator_12--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_13",
+        "resources": [
+          "ddf--datapoints--indicator_13--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_14",
+        "resources": [
+          "ddf--datapoints--indicator_14--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_15",
+        "resources": [
+          "ddf--datapoints--indicator_15--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_16",
+        "resources": [
+          "ddf--datapoints--indicator_16--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_17",
+        "resources": [
+          "ddf--datapoints--indicator_17--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_18",
+        "resources": [
+          "ddf--datapoints--indicator_18--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "indicator_19",
+        "resources": [
+          "ddf--datapoints--indicator_19--by--geo--time"
+        ]
+      }
+    ],
+    "synonyms": []
+  }
+}

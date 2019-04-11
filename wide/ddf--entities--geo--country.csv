@@ -1,0 +1,11 @@
+country,name,is--country,iso3166_1_alpha2,latitude,longitude
+aia,Anguilla,TRUE,AI,18.21667,-63.05
+and,Åland,TRUE,AX,60.25,20.0
+cok,Cook Islands,TRUE,CK,-21.24842,-159.78516
+fin,Finland,TRUE,FI,64.0,26.0
+hkg,Hongkong,TRUE,HK,22.28552,114.15769
+maf,Saint-Martin,FALSE,MF,18.0,-63.0
+mdv,Maldives,TRUE,MV,3.2,73.0
+mwi,Malawi,TRUE,MW,-13.5,34.0
+sgp,Singapore,TRUE,SG,1.28967,103.85007
+vct,St. Vincent and the Grenadines,TRUE,VC,13.08333,-61.2
