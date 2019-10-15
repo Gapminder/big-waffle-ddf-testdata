@@ -1,5 +1,6 @@
 concept,concept_type,description,domain,name,scales
 age,string,Age of a cohort in the population,,age,
+bs,measure,Percentage of bullshit,,bs %,"[""linear""]"
 city,entity_set,,geo,,
 country,entity_set,,geo,,
 description,string,,,,
