@@ -4,6 +4,7 @@ bs,measure,Percentage of bullshit,,bs %,"[""linear""]"
 city,entity_set,,geo,,
 country,entity_set,,geo,,
 description,string,,,,
+destination,role,country or region as destination of a flow,geo,,
 domain,string,,,,
 emissions,measure,Emissions of some gas.,,emissions,"[""log"", ""linear""]"
 gas,entity_set,,,,
@@ -14,7 +15,9 @@ in_country,string,country that a city belongs too,,,
 iso3166_1_alpha2,string,,,,
 latitude,measure,,,,"[""linear""]"
 longitude,measure,,,,"[""linear""]"
+migrants,measure,,,,"[""log"", ""linear""]"
 name,string,,,Name,
+origin,role,country or region as origin of a flow,geo,,
 population,measure,"Number of people of a certain age and gender in some geographic area",,population,"[""linear""]"
 scales,string,,,,
 shape_lores_svg,string,,,,

@@ -64,6 +64,35 @@
             }
         },
         {
+            "path": "ddf--datapoints--migrants--by--destination--gender--origin--time.csv",
+            "name": "ddf--datapoints--migrants--by--destination--gender--origin--time",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "destination"
+                    },
+                    {
+                        "name": "gender"
+                    },
+                    {
+                        "name": "origin"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "migrants"
+                    }
+                ],
+                "primaryKey": [
+                    "destination",
+                    "gender",
+                    "origin",
+                    "time"
+                ]
+            }
+        },
+        {
             "path": "ddf--datapoints--population--by--geo--time.csv",
             "name": "ddf--datapoints--population--by--geo--time",
             "schema": {
@@ -919,6 +948,18 @@
                 "value": "population",
                 "resources": [
                     "ddf--datapoints--population--by--age--gender--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "destination",
+                    "gender",
+                    "origin",
+                    "time"
+                ],
+                "value": "migrants",
+                "resources": [
+                    "ddf--datapoints--migrants--by--destination--gender--origin--time"
                 ]
             }
         ],

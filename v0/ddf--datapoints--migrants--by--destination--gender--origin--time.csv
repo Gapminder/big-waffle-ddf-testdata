@@ -1,0 +1,7 @@
+destination,gender,origin,time,migrants
+fin,male,hkg,2001,90
+fin,female,hkg,2001,10
+maf,male,fin,2001,20
+maf,female,aia,2001,80
+sgp,male,hkg,2005,40
+sgp,female,hkg,2005,60
